@@ -25,20 +25,20 @@ mod "zack/r10k"
 # Non-Forge Modules
 mod 'profiles',
   :git => 'https://github.braintree.com/venmo/puppet-profiles.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'roles',
   :git => 'https://github.braintree.com/venmo/puppet-roles.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'puppet',
   :git => 'https://github.braintree.com/venmo/puppet-puppet.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'users',
   :git => 'https://github.braintree.com/venmo/puppet-users.git',
-  :ref => 'development'
+  :ref => 'production'
 
 mod 'venmo-platform',
   :git => 'https://github.braintree.com/venmo/puppet-venmo_platform.git',
-  :ref => 'development'
+  :ref => 'production'
